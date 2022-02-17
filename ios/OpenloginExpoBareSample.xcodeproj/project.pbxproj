@@ -158,7 +158,6 @@
 				ECAF7434BC46AC9D18DD61F1 /* Pods-OpenloginExpoBareSample-OpenloginExpoBareSampleTests.debug.xcconfig */,
 				D9FED594E8B2A7BAD30B2C63 /* Pods-OpenloginExpoBareSample-OpenloginExpoBareSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -464,6 +463,7 @@
 			baseConfigurationReference = ECAF7434BC46AC9D18DD61F1 /* Pods-OpenloginExpoBareSample-OpenloginExpoBareSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93GJ7R8CJJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -482,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenloginExpoBareSample.app/OpenloginExpoBareSample";
 			};
 			name = Debug;
@@ -492,6 +493,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 93GJ7R8CJJ;
 				INFOPLIST_FILE = OpenloginExpoBareSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenloginExpoBareSample.app/OpenloginExpoBareSample";
 			};
 			name = Release;
@@ -517,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93GJ7R8CJJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenloginExpoBareSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,6 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93GJ7R8CJJ;
 				INFOPLIST_FILE = OpenloginExpoBareSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,6 +627,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -679,6 +685,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
