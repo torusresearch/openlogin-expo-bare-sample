@@ -5,3 +5,4 @@
 3. Install the openlogin-expo-sdk by running `npx expo install expo-web-browser`.
 4. `yarn add openlogin-expo-sdk`
 5. If you are using iOS, run `npx pod-install`.
+6. Register the URL scheme you intended to use to Android and iOS.

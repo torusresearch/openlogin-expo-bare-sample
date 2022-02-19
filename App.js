@@ -22,7 +22,7 @@ export default function App() {
       const openlogin = new OpenLogin({
         clientId:
           "BC5bANkU4-fil7C5s1uKzRfF0VGqbuaxDQiLnQ8WgF7SEA32lGegAhu7dk4dZf3Rk397blIvfWytXwsRvs9dOaQ",
-        network: Network.TESTNET,
+        network: Network.MAINNET,
       });
       const state = await openlogin.login({
         loginProvider: LoginProvider.GOOGLE,
@@ -36,11 +36,11 @@ export default function App() {
   };
   return (
     <View style={styles.container}>
-      <Text>Key: {key}</Text>
-      <Text>Error: {errorMsg}</Text>
-      <Text>Linking URL: {resolvedRedirectUrl.href}</Text>
-      <Text>appOwnership: {Constants.appOwnership}</Text>
-      <Text>executionEnvironment: {Constants.executionEnvironment}</Text>
+      <Text style={styles.text}>Key: {key}</Text>
+      <Text style={styles.text}>Error: {errorMsg}</Text>
+      <Text style={styles.text}>Linking URL: {resolvedRedirectUrl.href}</Text>
+      <Text style={styles.text}>appOwnership: {Constants.appOwnership}</Text>
+      <Text style={styles.text}>executionEnvironment: {Constants.executionEnvironment}</Text>
       <Button title="Login with OpenLogin" onPress={login} />
       <StatusBar style="auto" />
     </View>
@@ -53,5 +53,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    color: "black"
   },
+  text: {
+    color: "black"
+  }
 });

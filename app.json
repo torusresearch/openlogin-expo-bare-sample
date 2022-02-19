@@ -1,4 +1,5 @@
 {
   "name": "OpenloginExpoBareSample",
-  "displayName": "OpenloginExpoBareSample"
+  "displayName": "OpenloginExpoBareSample",
+  "scheme": "openloginexposdkexampleexpo"
 }
